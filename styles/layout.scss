@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  @extend .cf; 
+  width: 98%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  clear: both;
+  @extend .cf; 
+}
+
+body > section {
+  padding: 120px 0;
+}
+
+[class*="grid"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 1.8182%;
+  &:first-child {
+    margin-left: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  &.centered {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.grid-fifth {
+  width: 18.54544%;
+}
+
+.grid-fourth {
+  width: 25%;
+  margin-left: 0;
+}
+
+.grid-seventh {
+  width: 12.46751428%;
+}
+
+.grid-eighth {
+  width: 10.909075%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-1 {
+  width: 3.8384%;
+}
+
+.grid-2 {
+  width: 9.495%;
+}
+
+.grid-3 {
+  width: 15.1516%;
+}
+
+.grid-4 {
+  width: 20.6062%;
+}
+
+.grid-6 {
+  width: 31.9194%;
+}
+
+.grid-7 {
+  width: 37.576%;
+}
+
+.grid-8 {
+  width: 43.2326%;
+}
+
+.grid-9 {
+  width: 48.8892%;
+  &:nth-of-type(odd){
+    margin-left: 0;
+  }
+}
+
+.grid-10 {
+  width: 54.7478%;
+}
+
+.grid-11 {
+  width: 60.2024%;
+}
+
+.grid-12 {
+  width: 65.859%;
+}
+
+.grid-14 {
+  width: 77.1722%;
+}
+
+.grid-third {
+  width: 32.121212121%;
+}
+
+.grid-wide-half {
+  float: left;
+  width: 45.454545455%;
+  margin-left: 9.09090909%;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+li.grid-wide-half {
+  &:nth-of-type(odd) {
+    margin-left: 0;
+  }
+}
+
+.pull-l {
+  float: left;
+}
+
+.pull-r {
+  float: right;
+}
+
+.img-grid {
+  .img-item, .sponsor {
+    margin-right: 2%;
+    margin-bottom: 8px;
+  }
+}
+
+.img-grid-small {
+  @extend .img-grid;
+  .img-item, .sponsor {
+    width: 32%;
+    float: left;
+    display: block;
+    &:nth-of-type(3n+3) {
+      margin-right: 0;
+    }
+  }
+}
+
+.img-grid-wide {
+  @extend .img-grid;
+  img {
+    width: 15%;
+    margin-bottom: 20px;
+    &:nth-child(6n+6) {
+      margin-right: 0;
+    }
+  }
+}
+
+.flex-row {
+  display: -webkit-box;      
+  display: -moz-box;      
+  display: -ms-flexbox;   
+  display: -webkit-flex;  
+  display: flex;  
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  .sponsor {
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    padding: 20px;
+  }
+}

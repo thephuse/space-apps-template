@@ -1,0 +1,54 @@
+body {
+  font-size: 125%;
+  font-family: "proxima-nova", sans-serif;
+}
+
+a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+table a, p a {
+  text-decoration: underline;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-bottom: 60px;
+  font-family: "steelfishregular", sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: "steelfishregular", sans-serif;
+  font-weight: normal;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid rgba(255,255,255, 0.25);
+  small {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 24px;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+  }
+}
+
+.text h3 {
+  font-size: 40px;
+  border-bottom: 0;
+  text-transform: none;
+}
+
+p, li {
+  line-height: 1.7;
+}
+
+object, iframe, img {
+  max-width: 100%;
+}

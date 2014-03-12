@@ -1,0 +1,220 @@
+@media screen and (max-width: 1140px) {
+
+  .body-with-notification {
+    padding-top: 42px;
+  }
+  .notification {
+    font-size: 13px;
+    padding: 10px;
+    .button {
+      padding: 5px 9px;
+    }
+  }
+
+  #challenges-filter {
+    padding: 10px 0 0 0;
+  }
+   #challenges-filter ul li.lead {
+    display: block;
+   }
+  #challenges-filter ul li:not(.lead) {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+  }
+  #organizers, #mentors, #judges {
+    display: none;
+  }
+  .organizer-img:hover:after {
+    height: 120px;
+    width: 160px;
+    padding-top: 40px;
+  }
+  .mentor-img:hover:after {
+    height: 135px;
+    width: 170px;
+  }
+  #liftoff {
+    padding-bottom: 70px;
+  }
+  .callout {
+    width: 70%;
+  }
+  body > section {
+    padding: 50px 0;
+  }
+  h2 {
+    margin-bottom: 40px;
+  }
+  .grid-8:first-child {
+    margin-bottom: 50px;
+  }
+  .container {
+    width: 90%;
+    & > [class^="grid"], .schedule .grid-6, .organizer {
+      width: 100%;
+      margin-left: 0!important;
+      text-align: center;
+    }
+    & > .grid-seventh, & > .mentor {
+      width: 25%;
+    }
+  }
+  .mentor-img {
+    text-align: center;
+  }
+  #sponsors .pull-l, #sponsors .pull-r {
+    float: none;
+    width: 100%;
+  }
+  .schedule .grid-6 {
+    margin-bottom: 20px;
+  }
+  .footer-nav li {
+    display: block;
+  }
+  .page-footer {
+    .pull-l, .pull-r {
+      float: none;
+      width: 100%;
+    }
+  }
+  .page-nav {
+    padding-top: 20px;
+    ul {
+      text-align: center;
+    }
+    li {
+      width: 40%;
+    }
+  }
+  .btn-primary {
+    padding: 15px 60px;
+  }
+  .register {
+    .btn-primary:first-child {
+      margin-bottom: 20px;
+    }
+  }
+  .partners p:first-child img{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .notification span {
+    display: none;
+  }
+
+  #sponsors .grid-3, #organizers .grid-seventh .organizer-img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .organizer-img {
+    display: inline-block;
+
+  }
+  .modal {
+    background:#fff;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+    height: 400px;
+    overflow-y: scroll;
+    aside {
+      background:#fff;
+      img {
+        max-width: 60px;
+        display: inline-block;
+      }
+      a {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0;
+      }
+    }
+  }
+  .modal-main {
+    width: 100%;
+    float: none;
+    background:#fff;
+    margin-left: 0;
+  }
+  .challenges_page_list {
+    width: 90%;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  #sponsors-page {
+    [class*="grid"] {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+    }
+  }
+  .menu-toggle, .mobile-logos {
+    display: block;
+  }
+  .page-header {
+    padding-bottom: 10px;
+  }
+  .page-header h1, .partners {
+    display: none;
+  }
+
+  .main-site-link {
+    float: right;
+    padding-top: 17px;
+  }
+  .page-nav {
+    width: 70%;
+    padding-top: 10px;
+    ul {
+      padding-left: 50px;
+      padding-top: 10px;
+      display: none;
+    }
+    li {
+      display: block;
+      text-align: left;
+    }
+  }
+  [class^="grid"] {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .sponsor span {
+    font-style: 12px;
+  }
+  .event-detail, .btn-small {
+    margin-bottom: 20px;
+  }
+  .organizer .btn-small {
+    padding: 11px 30px;
+  }
+  .callout {
+    width: 100%;
+  }
+  .callout header .number {
+    float: none;
+  }
+  .challenge {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container {
+    & > .grid-seventh {
+      width: 100%;
+      float: none;
+    }
+  }
+  #liftoff .btn-primary:first-child {
+    margin-bottom: 30px;
+  }
+}
