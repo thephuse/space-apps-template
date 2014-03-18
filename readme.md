@@ -9,6 +9,9 @@ Structure
 -------------
 
 ###index.html
+
+
+
 ###press.html
 ###sponsors.html
 ###youth.html
@@ -18,7 +21,7 @@ Structure
 
 Make a list of challenges that your venue will be promoting at the hackathon. The challenges can be filtered by Skill Set. All you need to do to set up the filtering is tag your challenges using classes, like so:
 
-``` <li class="challenges_page_list-challenge software design hardware strategy">
+```<li class="challenges_page_list-challenge software design hardware strategy">
 ```
 
 The above challenge is tagged with software, design, hardware, and strategy, so it will show up under each of those filters. Additionally, list the same tags in the `<li>` body like this:
