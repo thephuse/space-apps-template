@@ -1,12 +1,14 @@
 function accordion(){
   var toggle = $(".accordion-trigger");
   var content = $(".accordion-content");
-  content.hide();
   toggle.on("click", function(e){
-    content.slideUp();
     e.preventDefault();
-    var targetContent = $(this).attr("href");
-    $(targetContent).slideToggle();
+    var $targetContent = $($(this).attr("href"));
+    content.slideUp();
+    if ($targetContent.is(':visible'))
+     $targetContent.slideUp();
+    else
+     $targetContent.slideDown();
   });
 }
 

@@ -1,16 +1,4 @@
 @media screen and (max-width: 1140px) {
-
-  .body-with-notification {
-    padding-top: 42px;
-  }
-  .notification {
-    font-size: 13px;
-    padding: 10px;
-    .button {
-      padding: 5px 9px;
-    }
-  }
-
   #challenges-filter {
     padding: 10px 0 0 0;
   }
@@ -22,7 +10,7 @@
     padding: 5px;
     display: inline-block;
   }
-  #organizers, #mentors, #judges {
+  #organizers, #mentors {
     display: none;
   }
   .organizer-img:hover:after {
@@ -96,17 +84,10 @@
       margin-bottom: 20px;
     }
   }
-  .partners p:first-child img{
-    margin-top: 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
-
-  .notification span {
-    display: none;
-  }
-
+  
   #sponsors .grid-3, #organizers .grid-seventh .organizer-img {
     text-align: center;
     margin-bottom: 20px;
@@ -163,21 +144,17 @@
   .page-header {
     padding-bottom: 10px;
   }
-  .page-header h1, .partners {
+  .page-header h1, .nasa-partner {
     display: none;
   }
-
-  .main-site-link {
-    float: right;
-    padding-top: 17px;
-  }
   .page-nav {
-    width: 70%;
+    width: 70%; 
     padding-top: 10px;
     ul {
+      display: none;
       padding-left: 50px;
       padding-top: 10px;
-      display: none;
+      
     }
     li {
       display: block;
@@ -214,7 +191,7 @@
       float: none;
     }
   }
-  #liftoff .btn-primary:first-child {
-    margin-bottom: 30px;
+  .page-footer {
+    
   }
 }

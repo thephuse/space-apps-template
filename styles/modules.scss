@@ -84,7 +84,6 @@
 
 .btn-twitter, .btn-facebook {
   padding: 11px 20px;
-  color: #fff!important;
 }
 
 .btn-twitter {
@@ -98,25 +97,6 @@
   background: #003577;
   &:hover {
     background: darken(#003577, 5%);
-  }
-}
-
-.btn-vote {
-  @extend .btn;
-  background: #5DA423;
-  color: #fff!important;
-  @extend .btn-small;
-  padding: 5px 30px;
-  &:hover {
-    background:darken(#5DA423, 5%);
-  }
-}
-
-.btn-project {
-  @extend .btn-vote;
-  background:#333;
-  &:hover {
-    background:#111;
   }
 }
 
@@ -252,8 +232,8 @@
   top: 5%;
   left: 50%;
   z-index: 1050;
-  width: 820px;
-  margin-left: -410px;
+  width: 720px;
+  margin-left: -360px;
   background-color: #ffffff;
   outline: none;
   -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
@@ -263,7 +243,7 @@
   @extend .cf;
   overflow: hidden;
   text-align: left;
-  min-height: 350px;
+  min-height: 300px;
   a {
     color: #000;
   }
